@@ -1,0 +1,25 @@
+---
+layout: page
+title:  "Ideogram.AI"
+description: >
+  Generate amazing images with [ideogram.ia](https://ideogram.ai)
+date: 2023-09-28 19:37
+hide_description: false
+sitemap: false
+image:
+  path: /assets/img/sonic_poster.jpeg
+
+accent_image: /assets/img/sonic_poster.jpeg
+---
+
+Practice post. Sorting out some themeing and getting a basic understanding for how this all works.
+
+Here's a cool image I had an AI generate. I made it the default background and sidebar image for the time being. However, on this page you'll see a Mechanical looking Sonic Poster for the side bar. It's a pretty cool transition image.
+
+Here is the one I generated
+![](/blog/assets/img/dark_rain.jpeg)
+
+Here is the [Sonic](https://ideogram.ai/g/TPa3EyJ0S7ahYXx8Qo552Q/3) one I took from the site:
+![](/assets/img/sonic_poster.jpeg)
+
+I'm enjoying the flexible customization this platform offers. 
