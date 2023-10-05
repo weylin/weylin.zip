@@ -8,7 +8,6 @@ hide_description: false
 sitemap: false
 image:
   path: /assets/img/sonic_poster.jpeg
-
 accent_image: /assets/img/sonic_poster.jpeg
 ---
 
