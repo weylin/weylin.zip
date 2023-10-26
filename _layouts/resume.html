@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<head>
+    <!-- ... other head elements ... -->
+    {% include resume/css.html %}
+</head>
+
+<div class="resume">
+  <div class="contact-info">
+    <div class="row">
+      <div class="column left">
+        <strong>Location:</strong> {{ site.data.resume.info.location }}
+      </div>
+      <div class="column right">
+        <strong>Phone:</strong> {{ site.data.resume.info.phone }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="column left">
+        <!-- Empty column -->
+      </div>
+      <div class="column right">
+        <strong>E-Mail:</strong> {{ site.data.resume.info.email }}
+      </div>
+    </div>
+  </div>
+
+  <!-- ... existing code ... -->
+
+<div class="contact-info">
+  <!-- ... existing code ... -->
+</div>
+
+<div class="summary">
+  <div class="line"></div>
+  <div class="content">
+    <h3>Summary</h3>
+    <p>{{ site.data.resume.info.summary }}</p>
+  </div>
+</div>
+
+<!-- ... rest of your resume ... -->
+
+  <!-- ... rest of your resume ... -->
+</div>
+
+
+

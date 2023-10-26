@@ -91,6 +91,8 @@ menu:
     url:   /blog/
   - title: About
     url:   /about/
+  - title: Resume
+    url: /resume/
 
 font:         Noto Sans, Helvetica, Arial, sans-serif
 font_heading: Roboto Slab, Helvetica, Arial, sans-serif
