@@ -1,0 +1,98 @@
+// Custom Color Scheme.
+$gray: #121212;
+$gray-bg: #1C1C1C;
+$gray-text: #B0B0B0;
+$menu-text: #E0E0E0;
+$body-color: #E0E0E0;
+$body-bg: #121212;
+$border-color: #2E2E2E;
+$primary-accent: #1EEAB7;
+$complementary-accent: #FF5733;
+
+.experience .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.experience .column {
+    flex: 1;
+}
+
+.experience .column.left {
+    text-align: left;
+}
+
+.experience .column.right {
+    text-align: right;
+}
+
+.contact-info .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.contact-info .column {
+    width: 50%;
+}
+
+.contact-info .column.left {
+    text-align: left;
+}
+
+.contact-info .column.right {
+    text-align: right;
+}
+
+// Applying your custom color scheme
+body {
+    color: $body-color;
+    background-color: $body-bg;
+    border-color: $border-color;
+}
+
+.menu {
+    color: $menu-text;
+}
+
+// Style for the decorator image
+.decorator {
+//    background-image: url('/path/to/new/decorator-image.png');
+    background-color: $gray;
+}
+
+// Style for your head-shot
+.head-shot {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+
+#_navbar {
+    background-color: $gray-bg;
+    z-index: 3;
+}
+
+#_navbar .nav-btn,
+#_navbar .nav-btn-bar,
+#_navbar .nav-span,
+#_navbar .loading {
+    background-color: $gray-bg;
+    color: $menu-text;
+}
+
+/* _sass/my-style.scss */
+.note-sm {
+    color: #a0a0a0;  /* Lighter gray text color for better contrast */
+}
+
+/* _sass/my-style.scss */
+.highlight {
+    background-color: #2c2c2c; /* Adjust to desired shade of gray */
+}
+
+.highlight code {
+    color: #f5d442; /* Adjust to desired shade of yellow */
+}
+

@@ -18,17 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Weylin.zip
+title: weylin.zip
 email: mail@weylin.zip
 description: >- # this means to ignore newlines until "baseurl:"
-  This is an awesome description.
+  Hi, I'm Weylin-
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "weylin.zip" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: weylin
 
 # Build settings
-remote_theme: weylin/hydejack@v1.0.0
+#remote_theme: weylin/hydejack@v1.0.0
+remote_theme: hydecorp/hydejack@v9.1.6
 
 plugins:
   - jekyll-feed
@@ -63,17 +64,17 @@ plugins:
 #               HydeJack Settings               #
 #                                               #
 #################################################
-logo: /assets/img/weylin_wolf.jpeg
+logo: /assets/img/base/logo_weylin_wolf.jpeg
 permalink: /:categories/:year-:month-:day-:title/
-accent_image: /assets/img/dark_rain.jpeg
+accent_image:  /assets/img/base/accent_img.png
 accent_color: rgb(79,177,186)
 
-defaults:
-  - scope:
-      path: weylin/
-    values:
-      accent_image: assets/img/dark_rain.jpeg
-      accent_color: rgb(30,234,183)
+  # defaults:
+  #   - scope:
+  #       path: weylin/
+  #     values:
+  #       accent_image: /assets/img/base/accent_img.png
+  #       accent_color: rgb(30,234,183)
 
 theme_color:  rgb(25,55,71)
 
@@ -97,3 +98,7 @@ menu:
 font:         Noto Sans, Helvetica, Arial, sans-serif
 font_heading: Roboto Slab, Helvetica, Arial, sans-serif
 google_fonts: Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+
+sass:
+  sass_dir: _sass
+  style: compressed

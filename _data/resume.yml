@@ -4,8 +4,68 @@ info:
     Hi, I'm Weylin!
   label: "Systems Engineer"
   website: "weylin.zip"
-  location: VA
+  location: Virginia, United States
   phone: "&lt;redacted&gt;"
   email: "&lt;redacted&gt;"
-  summary: >
-    Lead Systems Engineer with expertise leading systems engineering and virtualization for global enterprise companies. Hands-on Leader focused on expanding capacity, increasing system performance, and maximizing uptime.
+  summary: Lead Systems Engineer with expertise leading systems engineering and virtualization for global enterprise companies. Hands-on Leader focused on expanding capacity, increasing system performance, and maximizing uptime.
+  skills:
+    - category: Engineering
+      list: Service Delivery, Capacity Planning, Infrastructure Architecture & Development, Software Deployment, System Performance & Load Balancing, RAID Devices & Configurations, Configuration Management, Virtualization, Data Security, Risk Management, Troubleshooting & RCA, Tools & Automation, Documentation
+    - category: Leadership
+      list: Strategic Planning & Execution, Project Management, Prioritization, Process Improvement, Cross-functional Collaboration, Staff Hiring & Management, Training & Development, Coaching & Mentorship, Interdepartmental Alignment, Change Management, Resource Allocation, Executive Reporting
+    - category: Technology
+      list: Linux, Unix, Bash, Python, OpenNebula, Virtualbox/Vagrant, KVM, SaltStack, AWS
+  experiences:
+    - title: "Systems Engineer"
+      company: "Amazon Prime Video"
+      dates: "2022 - Present"
+      responsibilities:
+        - "Onboard and configure feeds for various live events."
+        - "Update tooling for various routines, such as: parsers used for on-boarding feeds, reducing errors and adding metadata to auto-triaged events, giving clearer insight into how successful the tooling is."
+        - "Integrated workflow to receive data from ExtraHop for circuit failures which correlated affected live feeds, putting this information in front of operations reducing their time to investigate."
+        - "Migrated infrastructure for a partner's broadcast services to new architecture; reducing the overall footprint, complexity, and cost."
+        - "Currently working on a proof of concept, building simple and re-deployable infrastructure for a new service."
+    - title: "Lead Systems Engineer"
+      company: "GoDaddy"
+      dates: "2021 - 2022"
+      responsibilities:
+        - "Lead a team of 5+ Engineers responsible for operating and managing the GoDaddy Registry DNS infrastructure and services."
+        - "Lead team of 4+ Engineers responsible for GoDaddy internal and customer facing DNS services."
+        - "Actively participated in unifying Registry and Internal DNS teams into a single, cohesive group."
+        - "Support engineers in India supporting .IN Registry."
+        - "Lead an effort on upgrading Bind software across the entire infrastructure."
+        - "Lead an effort on deploying recursive DNS resolvers for the Registry in additional GoDaddy collocations."
+    - title: "Senior Systems Engineer"
+      dates: "2020 - 2021"
+    - title: "Manager of Systems Operations Engineering"
+      dates: "2017 - 2020"
+    - title: "Systems Operations Engineer II"
+      dates: "2016 - 2017"
+    - title: "Systems Operations Engineer"
+      dates: "2015 - 2016"
+    - title: "NOC Analyst"
+      dates: "2013 - 2015"
+      company: "Limelight Networks"
+      responsibilities:
+        - "Lead a team of 10+ engineers supporting system operations for a global content delivery network with over 130 data centers worldwide."
+        - "Managed the deployment of 68 data centers to expand and augment system capacity while maintaining the stability of the systems, network, and services. Partnered with Ericsson to streamline 32 of those deployments."
+        - "Developed a validation tool to streamline datacenter deployment validation from 12 to 2 hours."
+        - "Partner with the support, development, and engineering teams to build tools for automated provisioning of new hardware and testing to validate new service functions."
+        - "Designed and implemented a new open-source virtualization platform for the business."
+        - "Define and document the processes and procedures for quickly and securely upgrading operating systems."
+        - "Provide on-call engineering support for our virtualization platform and other services to maximize uptime."
+        - "Champion the implementation of agile methodologies into team workflows as the team’s Scrum master in order to increase operational efficiency, effectiveness, and collaboration."
+    - title: "Linux Systems Administrator"
+      company: "Apollo Group"
+      dates: "2011 - 2013"
+      responsibilities:
+        - "Support disaster recovery and risk mitigation by conducting system and service tape backups and restores."
+        - "Monitor and track Linux system performance to quickly and accurately identify and diagnose service issues."
+        - "Conduct troubleshooting to resolve filesystem (LVM), hosting, and service issues and minimize system downtime."
+        - "Document issues, analyze problem recurrence, and partner with the engineering team on root cause analysis to develop long-term performance fixes for critical features including the centralized authentication system."
+    - title: "Server Support Technician"
+      company: "GoDaddy.com"
+      dates: "2008 - 2011"
+      responsibilities:
+        - "Provided technical end-user support and troubleshooting for hosted dedicated and virtual dedicated services."
+        - "Supported customers via phone, email ticketing queues, and live chat with a focus on identifying, diagnosing, and resolving the issue during the first customer contact to maintain high-quality assurance scores."
